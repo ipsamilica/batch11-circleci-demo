@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SMOKE TEST SUITE" thread-count="1" parallel="methods">
+    <test name="Dummy SMOTE TESTS">
+        <classes>
+            <class name="com.techcenture.acadey.LoginTests"></class>
+            <class name="com.techcenture.acadey.RegisterTests"></class>
+            <class name="com.techcenture.acadey.PlaceOrderTest"></class>
+        </classes>
+    </test>
+</suite>
